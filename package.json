@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:gabrieljo/typescript_chain.git",
   "author": "Gabriel Jo <gabrieljo1302@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
