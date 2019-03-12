@@ -6,7 +6,10 @@
   "author": "Gabriel Jo <gabrieljo1302@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node dist/index.js",
     "prestart": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.1.2"
   }
 }
