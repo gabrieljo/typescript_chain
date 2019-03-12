@@ -69,6 +69,8 @@ const createNewBlock = (data: string): Block => {
     nextTimestamp
   );
 
+  addBlock(newBlock);
+
   return newBlock;
 };
 
@@ -98,3 +100,10 @@ const addBlock = (currentBlock: Block): void => {
     blockchain.push(currentBlock);
   }
 };
+
+createNewBlock("second block");
+createNewBlock("third block");
+createNewBlock("fourth block");
+createNewBlock("fifth block");
+
+console.log(blockchain);
